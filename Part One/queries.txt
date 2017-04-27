@@ -1,0 +1,8 @@
+?- ['tie'].
+?- solve.
+
+?- ['friend'].
+?- solve.
+
+?- ['star'].
+?- solve.
