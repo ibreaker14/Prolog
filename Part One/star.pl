@@ -77,7 +77,6 @@ after(Y, _, [Y | _]) :- !, fail.
 after(X, Y, [H | _]) :- after(X, Y, H).
 
 tell(X, Y, Z) :-
-    ((mr(X);
-    write('Ms.'), write(X), write(' saw a '), write(Y), write(' on '), write(Z), write('.'), nl),
-    (ms(X);
-    write('Mr.'), write(X), write(' saw a '), write(Y), write(' on '), write(Z), write('.'), nl)).
+    (mr(X) ->
+        (write('Mr.'), write(X), write(' saw a '), write(Y), write(' on '), write(Z), write('.'), nl);
+        (write('Ms.'), write(X), write(' saw a '), write(Y), write(' on '), write(Z), write('.'), nl)).
