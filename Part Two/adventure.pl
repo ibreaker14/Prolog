@@ -642,8 +642,37 @@ describe(cockpit) :-
         i_am_at(plane);
         i_am_at(ocean)
     ),
+    write('Cockpit with 2 dead pilots.'), !, nl.
+
+describe(windshield) :-
+    (
+        i_am_at(plane);
+        i_am_at(ocean)
+    ),
     locked(plane),
-    write('A broken cockpit shattered by a rock.'), !, nl.
+    write('A cockpit protected by thick glass'), !, nl.
+
+describe(windshield) :-
+    (
+        i_am_at(plane);
+        i_am_at(ocean)
+    ),
+    write('A broken windshield shattered by a rock.'), !, nl.
+
+describe(window) :-
+    (
+        i_am_at(plane);
+        i_am_at(ocean)
+    ),
+    locked(plane),
+    write('A cockpit protected by thick glass'), !, nl.
+
+describe(window) :-
+    (
+        i_am_at(plane);
+        i_am_at(ocean)
+    ),
+    write('A broken windshield shattered by a rock.'), !, nl.
 
 describe(dead_bodies) :-
     write('The sight of rotting bodies makes you gag.'), !, nl.
