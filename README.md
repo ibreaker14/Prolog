@@ -103,12 +103,14 @@ or
 ?- drink(Something).			%% player drinks something
 ?- halt.
 ````
+#### Screenshot
+![alt text](Part%20Two/2017-05-02_23h15_45.png "Screenshot")
 
-This game features 4 things:
+#### This game features 4 things:
 * Locked door -> The airplane that crashed is half-submerged in water. The only way to get inside is to break the cockpit windshield with a rock.
 * Hidden Object -> a surivival kit inside the plane also needs to be opened in order for its content to be revealed.
 * Incomplete Objeect -> The player needs to combine 2 sources of wood together (driftwood and branches) in order to make a big enough woodpile for a fire.
 * Limited Resources -> Player needs to build a fire on the beach to attract the attention of a plane before time runs out.
 
-To win the game: 
+#### To win the game: 
 Player must find a way to attract the attention of a passing plane. If player fails to do this by the time the timer runs out, he/she dies.
