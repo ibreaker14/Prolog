@@ -103,14 +103,6 @@ take([H|T]) :-
 
 take([H|T]).
 
-drop([]) :- write('done'),!,nl.
-
-drop([H|T]) :- 
-    drop(H), 
-    drop(T), !, fail, nl.
-
-drop([H|T]).
-
 take(dead_bodies) :-
     write('That''s messed up. Why would you do that?'), !, nl.
 
@@ -166,6 +158,14 @@ take(_,_) :-
     write('That isn''t possible.'),nl,!.
 
 /* These rules describe how to put down an object. */
+
+drop([]) :- write('done'),!,nl.
+
+drop([H|T]) :- 
+    drop(H), 
+    drop(T), !, fail, nl.
+
+drop([H|T]).
 
 drop(X) :-
         holding(X),
@@ -356,10 +356,16 @@ instructions :-
         write('halt.                        -- to end the game and quit.'), nl,
         nl.
 
+/* intro to the game*/
+intro :-
+    nl,
+    write('Welcome to Stranded the Game! Find your way out off the island'),nl,
+    write('where you were stranded at after you survived from a plane crash.'), nl,
+    nl.
 
 /* This rule prints out instructions and tells where you are. */
-
 start :-
+    intro,
     instructions,
     look.
 
