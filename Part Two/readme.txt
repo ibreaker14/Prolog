@@ -42,4 +42,4 @@ This game features 4 things:
 * Limited Resources -> Player needs to build a fire on the beach to attract the attention of a plane before time runs out.
 
 To win the game: 
-Player must find a way to light a pile of wood on fire on the beach to attract the attention of a passing plane. If player fails to do this by the time, the timer runs out, he/she dies.
+Player must find a way to light a pile of wood on fire on the beach to attract the attention of a passing plane. If player fails to do this by the time the timer runs out, he/she dies.
