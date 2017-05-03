@@ -81,26 +81,26 @@ or
 
 #### Some important commands: 
 ````
-?- n. s. e. w.					--> go north, south, east, or west
-?- inventory.  or  ?- i.      	--> lists objects in your inventory
-?- look.					 	--> desribes your immediate surroundings
-?- describe(Something).		    --> describes anything in your line of sight (could be place or thing)
-?- take(Object).				--> stores object into inventory
-?- take(List[]).				--> stores a list of objects into inventory
-?- take(Object, Container).		--> take object out of containers 
-?- take(all, Container).		--> take all objects out of a container
-?- drop(Object).				--> put down an object somewhere
-?- drop(List[]).				--> put down a list of objects
-?- open(Object).				--> opens a door or container
-?- combine(Object1, Object2).	--> combines 2 objects together
-?- break(Object).				--> break an object
-?- break(Object, With).			--> break object with another object
-?- chop(Object, With).			--> chops an object with something else
-?- chop(Object).				--> chops an object assuming you have something to chop with
-?- light(Object, With).			--> lights up something with something else
-?- light(Object).				--> lights up something assuming you have something to light with
-?- eat(Something).				--> player eats something
-?- drink(Something).			--> player drinks something
+?- n. s. e. w.				%% go north, south, east, or west
+?- inventory.  or  ?- i.		%% lists objects in your inventory
+?- look.				%% desribes your immediate surroundings
+?- describe(Something).			%% describes anything in your line of sight (could be place or thing)
+?- take(Object).			%% stores object into inventory
+?- take(List[]).			%% stores a list of objects into inventory
+?- take(Object, Container).		%% take object out of containers 
+?- take(all, Container).		%% take all objects out of a container
+?- drop(Object).			%% put down an object somewhere
+?- drop(List[]).			%% put down a list of objects
+?- open(Object).			%% opens a door or container
+?- combine(Object1, Object2).		%% combines 2 objects together
+?- break(Object).			%% break an object
+?- break(Object, With).			%% break object with another object
+?- chop(Object, With).			%% chops an object with something else
+?- chop(Object).			%% chops an object assuming you have something to chop with
+?- light(Object, With).			%% lights up something with something else
+?- light(Object).			%% lights up something assuming you have something to light with
+?- eat(Something).			%% player eats something
+?- drink(Something).			%% player drinks something
 ?- halt.
 ````
 
