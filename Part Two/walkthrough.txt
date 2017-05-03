@@ -1,0 +1,19 @@
+Fastest way to win the game:
+
+?- ['adventure'].
+?- start.
+?- take(rock).
+?- s.
+?- break(plane,rock). or break(cockpit,rock). or break(windshield,rock). or break(window,rock).
+?- e.
+?- take(axe).
+?- open(survival_kit).
+?- take(lighter, survival_kit).
+?- w.
+?- n.
+?- n.
+?- chop(tree). or chop(tree,axe).
+?- take(branches).
+?- s.
+?- combine(driftwood,branches).
+?- light(woodpile). or light(woodpile, lighter).
