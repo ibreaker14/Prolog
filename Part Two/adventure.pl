@@ -190,6 +190,7 @@ e :- go(e).
 
 w :- go(w).
 
+i :- inventory.
 
 /* This rule tells how to move in a given direction. */
 
@@ -335,6 +336,7 @@ instructions :-
         write('Enter commands using standard Prolog syntax.'), nl,
         write('Available commands are:'), nl,
         write('start.                       -- to start the game.'), nl,
+        write('inventory. or i.             -- to see contents of your inventory.'), nl,
         write('look.                        -- to look around you again.'), nl,
         write('describe(Location).          -- to describe your current location or adjoining location.'), nl,
         write('n.  s.  e.  w.               -- to go in that direction.'), nl,
