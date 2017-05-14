@@ -1,8 +1,5 @@
-# CECS 424 Sp2017 - Assignment #4
-CECS 424 Prolog
-
-Author: Mingtau Li, 
-SID: 011110539
+# Prolog Projects
+Author: Mingtau Li
 
 ---
 ## Part One: Dell Logic Puzzles
